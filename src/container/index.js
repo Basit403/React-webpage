@@ -1,0 +1,10 @@
+export { default as Navbar } from './navbar/Navbar';
+export { default as Header } from './header/Header';
+export { default as Partners } from './partners/Partners';
+export { default as Global } from './global/Global';
+export { default as Carrer } from './carrer/Carrer';
+export { default as Display } from './display/Display';
+export { default as Services } from './services/Services';
+export { default as Reviews } from './reviews/Reviews';
+export { default as Blog } from './blog/Blog';
+export { default as Footer } from './footer/Footer';

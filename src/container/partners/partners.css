@@ -1,0 +1,43 @@
+.partner-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.partner-img{
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.partner-img div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+@media screen and (max-width: 1050px){
+    .partner-img{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partner-img div{
+        margin-left: 90px;
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+
+    .partner-container h1{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
